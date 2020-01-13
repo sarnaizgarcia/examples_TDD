@@ -88,8 +88,6 @@ class TestFibonacci(unittest.TestCase):
         with pytest.raises(TypeError):
             assert my_fibonacci(index)
 
-        
-
     # TEST 9
     def test_index_is_negative(self):
         index = -8
